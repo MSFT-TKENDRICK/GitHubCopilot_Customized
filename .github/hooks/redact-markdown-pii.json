@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "node .github/hooks/scripts/redact-markdown-pii.js",
+        "timeout": 15
+      }
+    ]
+  }
+}

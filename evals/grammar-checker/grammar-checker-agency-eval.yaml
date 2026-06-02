@@ -1,0 +1,18 @@
+batch:
+  id: grammar-checker-agency-eval
+  label: GrammarChecker custom agent eval
+  file: C:\src\GitHubCopilot_Customized\evals\grammar-checker\grammar-checker-agency-eval-data.csv
+job:
+  name: grammar-checker
+  engine: copilot
+  prompt: "{{$prompt}}"
+  output: "C:\\src\\GitHubCopilot_Customized\\artifacts\\agency-evals\\grammar-checker\\result-{{$job_id}}-{{$iteration_id}}.json"
+  iterations: 1
+  agencyExtraArgs: '--no-default-mcps'
+  engineExtraArgs: '--agent=GrammarChecker'
+  validation:
+    exitCode: 0
+  workingDirectory: "C:\\src\\GitHubCopilot_Customized"
+processing:
+  maxProcesses: 1
+  timeout: 180

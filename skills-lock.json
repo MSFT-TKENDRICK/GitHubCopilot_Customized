@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "sensei": {
+      "source": "microsoft/github-copilot-for-azure",
+      "sourceType": "github",
+      "computedHash": "ff8b180db5a5866f758da5c6507e1d343c6abe0d58663f68f9faf96c72008f6e"
+    }
+  }
+}

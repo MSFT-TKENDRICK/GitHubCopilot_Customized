@@ -1,6 +1,9 @@
 ---
 name: web-design-reviewer
-description: 'This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like "review website design", "check the UI", "fix the layout", "find design problems". Detects issues with responsive design, accessibility, visual consistency, and layout breakage, then performs fixes at the source code level.'
+description: "Review and remediate website UI issues through browser-driven inspection and source-level fixes across responsive layouts, accessibility, and visual consistency. WHEN: \"review website design\", \"check the UI\", \"fix layout issues\", \"find responsive bugs\", \"audit visual consistency\", \"inspect accessibility contrast\"."
+license: MIT
+metadata:
+  version: "1.0.0"
 ---
 
 # Web Design Reviewer
